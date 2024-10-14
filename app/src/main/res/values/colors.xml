@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bgcolor">#212226</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="orange">#EB460A</color>
+    <color name="borda">#808080</color>
+    <color name="cinzaescuro">#1A1B1D</color>
+    <color name="cinzaclaro">#D9D9D9</color>
+
+</resources>

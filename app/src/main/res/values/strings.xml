@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BUSCA</string>
+    <string name="tittle1">ARTISTAS EM ALTA</string>
+    <string name="tittle2">GÊNEROS RECOMENDADOS</string>
+    <string name="tittle3">DESCUBRA NOVOS ÁLBUNS</string>
+    <string name="tittle4">RECOMENDADOS</string>
+    <string name="tittle5">MAIS ESCUTADOS</string>
+    <string name="art1">Mitski</string>
+    <string name="art2">Lana Del Rey</string>
+    <string name="art3">Chappell R.</string>
+    <string name="art4">Charli xcx</string>
+    <string name="art5">Sabrina C.</string>
+    <string name="art6">Lady Gaga</string>
+    <string name="gen1">HIP HOP</string>
+    <string name="gen2">MPB</string>
+    <string name="gen3">REGGAE</string>
+    <string name="gen4">SERTANEJO</string>
+    <string name="gen5">ROCK</string>
+    <string name="gen6">FUNK</string>
+    <string name="alb1">Álbum 1</string>
+    <string name="alb2">Álbum 2</string>
+    <string name="alb3">Álbum 3</string>
+    <string name="alb4">Álbum 4</string>
+
+</resources>
