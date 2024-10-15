@@ -6,26 +6,20 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.telabusca.databinding.ActivityMainBinding
+import com.example.telabusca.databinding.ActivityTelaArtistaBinding
 
-class MainActivity : AppCompatActivity() {
+class TelaArtistaActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
-
+    private lateinit var binding: ActivityTelaArtistaBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityTelaArtistaBinding.inflate(layoutInflater)
         enableEdgeToEdge()
         setContentView(binding.root)
 
-        binding.hiphop.setOnClickListener {
-            val navegarTelaGenero = Intent(this, TelaGeneroActivity::class.java)
-            startActivity(navegarTelaGenero)
-        }
-
-        binding.art1.setOnClickListener {
-            val navegarTelaArtista = Intent(this, TelaArtistaActivity::class.java)
-            startActivity(navegarTelaArtista)
+        binding.setaVoltar.setOnClickListener {
+            val voltarTelaBusca = Intent(this, MainActivity::class.java)
+            startActivity(voltarTelaBusca)
         }
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
