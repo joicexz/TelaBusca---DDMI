@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="bgcolor">#212226</color>
+    <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="black">#000000</color>
-    <color name="orange">#EB460A</color>
-    <color name="borda">#808080</color>
-    <color name="cinzaescuro">#1A1B1D</color>
-    <color name="cinzaclaro">#D9D9D9</color>
+    <color name="goldengate">#EB460A</color>
+    <color name="celticblue">#1D6DCD</color>
+    <color name="deepsky">#00BBFA</color>
+    <color name="teal">#057D80</color>
+    <color name="veronica">#A020F0</color>
+    <color name="cerise">#EC169F</color>
+    <color name="vermillion">#FF2E2E</color>
+    <color name="xanthous">#F1AF09</color>
+    <color name="eerie">#1B1B1B</color>
+    <color name="cosmic">#FFF8E7</color>
 
 </resources>

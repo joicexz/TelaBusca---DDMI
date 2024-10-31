@@ -27,6 +27,15 @@ class MainActivity : AppCompatActivity() {
             Pair(binding.art6, getString(R.string.art6))
         )
 
+        val generos = listOf(
+            Pair(binding.genero1, getString(R.string.gen1)),
+            Pair(binding.genero2, getString(R.string.gen2)),
+            Pair(binding.genero3, getString(R.string.gen3)),
+            Pair(binding.genero4, getString(R.string.gen4)),
+            Pair(binding.genero5, getString(R.string.gen5)),
+            Pair(binding.genero6, getString(R.string.gen6))
+        )
+
         artistas.forEach { (view, nomeArtista) ->
             view.setOnClickListener {
                 val navegarTelaArtista = Intent(this, TelaArtistaActivity::class.java)
@@ -34,10 +43,13 @@ class MainActivity : AppCompatActivity() {
                 startActivity(navegarTelaArtista)
             }
         }
-        
-        binding.hiphop.setOnClickListener {
-            val navegarTelaGenero = Intent(this, TelaGeneroActivity::class.java)
-            startActivity(navegarTelaGenero)
+
+        generos.forEach{(view, nomeGenero) ->
+            view.setOnClickListener {
+                val navegarTelaGenero = Intent(this, TelaGeneroActivity::class.java)
+                navegarTelaGenero.putExtra("GENERO_NAME", nomeGenero)
+                startActivity(navegarTelaGenero)
+            }
         }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
